@@ -7,7 +7,8 @@ body {
 }
 
 .page {
-  height: 100vh;
+  height: 90vh;
+  position: relative;
 }
 
 .page-header {
@@ -44,6 +45,51 @@ body {
           flex-grow: 1;
   font-weight: 600;
   text-align: right;
+}
+
+.page-text {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.page-text-bt {
+  position: relative;
+  font-size: 40px;
+  font-weight: 6;
+  top: -30px;
+  letter-spacing: 2px;
+}
+
+.page-text-bh {
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 32px;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.page-text-bh:hover {
+  background-color: #9b0c96;
+  border-color: #9b0c96;
+  padding: 10px 40px;
 }
 
 .hover:hover {
